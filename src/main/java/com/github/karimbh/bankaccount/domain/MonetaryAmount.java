@@ -9,9 +9,9 @@ import java.util.Currency;
  */
 public class MonetaryAmount {
 
-    private BigDecimal amount;
+    private final BigDecimal amount;
 
-    private Currency currency;
+    private final Currency currency;
 
     public MonetaryAmount(BigDecimal amount, Currency currency) {
         this.amount = amount;
